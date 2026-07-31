@@ -1,3 +1,10 @@
 TrainData/
+Articles/
 GetData.ipynb
 GenerateTrainData.ipynb
+
+# training artefacts
+checkpoints/
+*.h5
+training_log.csv
+marker_cnn_3d.png
