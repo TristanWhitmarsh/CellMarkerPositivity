@@ -1,11 +1,13 @@
-TrainData/
-TestData/
-Articles/
-GetData.ipynb
-GenerateTrainData.ipynb
+# Ignore everything, then let through only the files that belong in the repository.
+# Data, images, articles, models, checkpoints and logs all stay local.
+# A new file has to be added to this list before git will pick it up.
+*
 
-# training artefacts
-checkpoints/
-*.h5
-training_log.csv
-marker_cnn_3d.png
+!.gitignore
+!LICENSE
+!README.md
+!CorrectMasks.ipynb
+!TrainModel.ipynb
+!Inference.ipynb
+!Inferenceometiff.ipynb
+!ometiff2nii.ipynb
